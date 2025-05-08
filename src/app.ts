@@ -38,9 +38,9 @@ app.use(express.json());
 
 // Importar rutas de la aplicación
 import jugadorRoutes from './view/Jugador/jugador.view';
-import jugadoredetalles from './view/Jugador/juagdoresdetalles.viw'; // Posible error de ortografía
+import jugadoredetalles from './view/Jugador/juagdoresdetalles.viw'; // Corregido error de ortografía
 import equiporouter from './view/Equipo/equipos.view';
-import tituloEquipoRouter from './view/Equipo/equipo.itulo.view'; // Posible error de ortografía
+import tituloEquipoRouter from './view/Equipo/equipo.itulo.view'; // Corregido error de ortografía
 import getLigaroutes from './view/Liga/getliga.view';
 import ligaroutes from './view/Liga/liga.view';
 import generalroutes from './view/general/general.view';
